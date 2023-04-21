@@ -1,0 +1,169 @@
+:root{
+    --title-text-color:#2E2F42;
+    --text-color:#434455;
+    --focus-text:#404BBF;
+    --text-button:#4D5AE5;
+    --background-button:#E7E9FC;
+    --focus-button:#FFFFFF;
+    --footer-text:#F4F4FD;
+}
+
+body{
+    font-family: Roboto, sans-serif;
+    color: var(--text-color);
+    background-color: var(--focus-button);
+}
+
+.web{
+font-family: 'Raleway',sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--text-button);
+    text-decoration: none;
+}
+
+.link{
+    text-decoration: none;
+}
+
+.table-studio{
+color: var(--title-text-color);
+}
+
+
+.links{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--title-text-color);
+        
+}
+
+.links:hover,
+.links:focus{
+    color: var(--focus-text);
+}
+
+.list{
+    list-style: none;
+}
+
+.addr-nav{
+    font-style: normal;
+}
+.contact{
+    font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+    color: var(--text-color);
+}
+
+.contact:hover,
+.contact:focus{
+    color: var(--focus-text);
+}
+
+.first-section {
+    background-color: var(--title-text-color);
+}
+
+.main-title {
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: var(--focus-button);
+}
+
+.button {
+    background-color: var(--text-button);
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--focus-button);
+    cursor: pointer;
+}
+
+.button:hover,
+.button:focus {
+    color: var(--focus-button);
+    background-color: var(--focus-text);
+
+}
+
+.bg-cards{
+    background-color: var(--focus-button);
+}
+.work {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--title-text-color);
+}
+
+.article {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--text-color);
+}
+
+.app {
+
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--title-text-color);
+}
+
+.bg-team {
+    background-color: var(--footer-text);
+}
+
+.buttons{
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 500;
+    letter-spacing: 0.04em;
+color: var(--text-button);
+    background-color: var(--footer-text);
+cursor:pointer;
+font-family: inherit;  
+}
+
+.buttons:hover,
+.buttons:focus{
+    color: var(--focus-button);
+    background-color: var(--focus-text);
+   
+}
+
+.product-title {
+    font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: var(--title-text-color);
+}
+
+
+.footer{
+    background-color: var(--title-text-color);
+}
+.footer-studio{
+    color: var(--footer-text);
+}
+
+.footer-content{
+    color: var(--footer-text);
+}
