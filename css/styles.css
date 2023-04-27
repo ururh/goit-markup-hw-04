@@ -16,8 +16,7 @@
 }
 .container{
     width: 1158px;
-    /* padding-left: 12px;
-    padding-right: 12px; */
+    padding: 0 15px; 
     margin: 0 auto;
 }
 
@@ -74,11 +73,16 @@ margin-right: 40px;
 
 .nav-list{
 display: flex;
-padding: 24px 0;
+align-items: center;
 }
 
 .padding-web{
     margin-right: 76px;
+    padding: 24px 0;
+}
+
+.address{
+    padding: 24px 0;
 }
 
 .flex-nav{
@@ -155,9 +159,9 @@ color: var(--title-text-color);
 
 .first-section {
     background-color: var(--title-text-color);
-    text-align: center;
     padding-top: 188px;
     padding-bottom: 188px; 
+text-align: center;
 }
 
 .main-title {
@@ -165,9 +169,10 @@ color: var(--title-text-color);
     margin-top: 0;
     font-size: 56px;
     line-height: 1.07;
-    text-align: center;
     letter-spacing: 0.02em;
     color: var(--focus-button);
+    max-width: 496px;
+    
 }
 
 .button {
@@ -182,6 +187,8 @@ color: var(--title-text-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
         border-radius: 4px;
     padding: 16px 32px;
+    display: block;
+    min-width: 169px;
 }
 
 .button:hover,
@@ -193,8 +200,8 @@ color: var(--title-text-color);
 
 .bg-cards{
     background-color: var(--focus-button);
-    padding-bottom: 32px;
-    text-align: center;
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
 }
 
 .our-work{
@@ -204,10 +211,15 @@ color: var(--title-text-color);
 .work-list{
     display: flex;
     justify-content: space-between;
+    gap: 24px;
 }
 
 .work-item{
+width: calc((100% - 72px) / 4);
+}
 
+.card-name{
+    padding: 32px 16px;
 }
 
 .work {
@@ -216,6 +228,7 @@ color: var(--title-text-color);
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--title-text-color);
+    text-align: center;
     margin-bottom: 8px;
 }
 
@@ -224,10 +237,15 @@ color: var(--title-text-color);
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--text-color);
+    text-align: center;
 }
 
 .application{
     padding-bottom: 120px;
+}
+
+.application-item{
+    width: calc((100% - 48px) / 3);
 }
 .app {
 
@@ -243,20 +261,26 @@ color: var(--title-text-color);
 
 .bg-team {
     background-color: var(--footer-text);
-    padding: 120px 0 72px 0;
+    padding: 120px 0 ;
 }
 
 .photo{
     margin-bottom: 32px;
 }
 
+.filtrs{
+    padding-top: 96px;
+    padding-bottom: 120px;
+}
+
 .buttons-list{
     display: flex;
-    padding-top: 96px;
     padding-bottom: 72px;
     gap:24px;
     justify-content: center;
+    margin-bottom: 72p;
 }
+
 .buttons{
     font-size: 16px;
     line-height: 1.5;
@@ -275,19 +299,26 @@ border: 1px solid var(--background-button);
 .buttons:focus{
     color: var(--focus-button);
     background-color: var(--focus-text);
-   
+ border: 1px solid transparent;
 }
 
 .app-list{
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
+    row-gap: 48px;
+}
+
+.app-title{
+    padding: 32px 16px;
+    border: 1px solid var(--background-button);
+    border-top: none;
+    margin-bottom: 8px;
 }
 
 .app-item{
     flex-basis: calc((100% - 24px * 2) / 3);
     margin-bottom: 48px;
-    border: 1px solid var(--background-button);
 }
 .product-title {
     font-weight: 500;
@@ -295,18 +326,22 @@ border: 1px solid var(--background-button);
         line-height: 1.2;
         letter-spacing: 0.02em;
         color: var(--title-text-color);
-        margin-top: 32px;
-        margin-bottom: 8px;
+
 }
 
 .footer{
     background-color: var(--title-text-color);
-    padding: 100px 1020px 100px 156px;
-    margin-top: 72px;
+    padding: 100px 0;
     
 }
 .footer-studio{
     color: var(--footer-text);
+}
+
+.footer-web
+{
+    display: inline-block;
+        margin-bottom: 16px;
 }
 
 .footer-content{
