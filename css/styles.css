@@ -95,6 +95,7 @@ display: flex;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--title-text-color);
+    padding: 24px 0;
 }
 
 .links:hover,
@@ -159,9 +160,9 @@ color: var(--title-text-color);
 
 .first-section {
     background-color: var(--title-text-color);
+    text-align: center;
     padding-top: 188px;
     padding-bottom: 188px; 
-text-align: center;
 }
 
 .main-title {
@@ -214,7 +215,7 @@ text-align: center;
     gap: 24px;
 }
 
-.work-item{
+.work-item {
 width: calc((100% - 72px) / 4);
 }
 
@@ -278,7 +279,7 @@ width: calc((100% - 72px) / 4);
     padding-bottom: 72px;
     gap:24px;
     justify-content: center;
-    margin-bottom: 72p;
+    margin-bottom: 72px;
 }
 
 .buttons{
@@ -313,7 +314,6 @@ border: 1px solid var(--background-button);
     padding: 32px 16px;
     border: 1px solid var(--background-button);
     border-top: none;
-    margin-bottom: 8px;
 }
 
 .app-item{
@@ -326,7 +326,7 @@ border: 1px solid var(--background-button);
         line-height: 1.2;
         letter-spacing: 0.02em;
         color: var(--title-text-color);
-
+margin-bottom: 8px;
 }
 
 .footer{
