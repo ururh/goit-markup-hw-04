@@ -175,6 +175,7 @@ color: var(--title-text-color);
     letter-spacing: 0.02em;
     color: var(--focus-button);
     max-width: 496px;
+    text-align: center;
     
 }
 
@@ -223,11 +224,27 @@ color: var(--title-text-color);
 width: calc((100% - 72px) / 4);
 }
 
+.work {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--title-text-color);
+    margin-bottom: 8px;
+}
+
+.article {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--text-color);
+}
+
 .card-name{
     padding: 32px 16px;
 }
 
-.work {
+.worker {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -237,7 +254,7 @@ width: calc((100% - 72px) / 4);
     text-align: center;
 }
 
-.article {
+.subtitle {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
