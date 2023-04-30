@@ -288,7 +288,7 @@ margin-right: 40px;
 }
 
 .card-name {
-    padding: 32px 16px;
+    padding: 32px 0;
     
 }
 
@@ -416,6 +416,13 @@ margin-right: 40px;
 padding: 120px 0;
 }
 
+.logo-title{
+    font-size: 36px;
+    line-height: 1.1;
+    color: var(--title-text-color);
+    text-align: center;
+
+}
 .logo-list {
     display: flex;
     margin-top: 72px;
@@ -437,13 +444,6 @@ padding: 120px 0;
     justify-content: center;
     color: var(--logo);
 }
-/* .logo-bg{
-        width: 168px;
-        height: 88px;
-        border: 1px solid var(--logo);
-        border-radius: 4px;
-        padding: 16px 32px;
-    } */
 
 .logo-link:hover,
 .logo-link:focus {
@@ -486,7 +486,6 @@ padding: 120px 0;
     width: 264px;
     font-size: 16px;
     line-height: calc(24 / 16);
-    margin-bottom: 16px;
 }
 
 .footer-media{
@@ -495,6 +494,7 @@ padding: 120px 0;
         font-size: 16px;
         line-height: calc(24 / 16);
         letter-spacing: 0.02em;
+        margin-bottom: 16px;
 }
 
 .footer-list {
