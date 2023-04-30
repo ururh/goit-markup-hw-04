@@ -151,6 +151,8 @@ margin-right: 40px;
 .hero {
     background-image: linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)), url(../images/hero-photo.jpg);
     max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -397,7 +399,6 @@ margin-right: 40px;
 
 .app-item {
     flex-basis: calc((100% - 24px * 2) / 3);
-    margin-bottom: 48px;
 }
 
 .product-title {
